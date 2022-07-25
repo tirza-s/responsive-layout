@@ -18,6 +18,13 @@ img {
   display: block;
 }
 
+.image-full {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  margin-bottom: 2em;
+}
+
 /* =================
 Typography
 ================= */
@@ -35,6 +42,9 @@ h1 {
   margin: 0;
 }
 
+h3 {
+  color: #1792d2;
+}
 a {
   color: #1792d2;
 
@@ -45,6 +55,7 @@ footer {
   background: #143774;
   color: white;
   text-align: center;
+  padding: 2.5em 0;
 }
 
 a:hover,
@@ -244,6 +255,10 @@ nav a:focus {
 .widget-title,
 .widget-recent-post-title {
   font-size: 1rem;
+}
+
+.widget-recent-post-title {
+  color: #143774;
 }
 
 .widget-title {
